@@ -48,6 +48,7 @@ userCtrl.getUser = async ( req, res ) => {
 
 
 userCtrl.newUser = async ( req, res ) => {
+    const loggedIn = req.user;
     const newUser = req.body;
     let newUsername = newUser.name.charAt(0)+ newUser.surname + newUser.lastSurname.charAt(0);
     try {
@@ -62,6 +63,7 @@ userCtrl.newUser = async ( req, res ) => {
         newUser.roleId = 2;
         newUser.createdAt = now;
         newUser.status = true;
+        newUser.creationUser = loggedIn.username;
         const salt = bcrypt.genSaltSync();
         newUser.password = bcrypt.hashSync( newUser.password, salt );
         await db.user.create( newUser ).then(() => {
@@ -78,10 +80,11 @@ userCtrl.newUser = async ( req, res ) => {
 
 userCtrl.updateUser = async ( req, res ) => {
     try {
-      
+        const loggedIn = req.user;
         const { id } = req.params;
         let updateUser  = req.body; 
         updateUser.updatedAt = now;
+        updateUser.updateUser = loggedIn.username;
         const foundUser = await db.user.findByPk( id );
         if( !foundUser ) return res.status( 400 ).json({ message: `El usuario no esta registrado` });
         await foundUser.update( updateUser ).then(() => {
