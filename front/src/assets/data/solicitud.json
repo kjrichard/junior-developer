@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "descripcion": "Esta es la descripción de la práctica para el laboratorio",
+        "asignatura": "Quimica",
+        "programa": "Agronomía",
+        "practica": "primera",
+        "fecha": "2021-04-20",
+        "estado": "Aprobada",
+        "items": [
+            {
+                "cantidad": 20,
+                "recurso": {
+                    "id": 1,
+                    "codigo": "25341",
+                    "nombre": "Matraces Erlenmeyer",
+                    "descripcion": "Tienen un cuello estrecho y se expanden hacia su base",
+                    "categoria": "instrumentos",
+                    "tipo": "Equipo",
+                    "estado": "Disponible"
+                }
+            },
+            {
+                "cantidad": 30,
+                "recurso": {
+                    "id": 2,
+                    "codigo": "25342",
+                    "nombre": "Acido sulfurico",
+                    "descripcion": "Solución estándar de ácido sulfúrico para ajustes del pH.",
+                    "categoria": "Acidos",
+                    "tipo": "Reactivo",
+                    "estado": "Disponible"
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "descripcion": "Esta es la descripción de la práctica para el laboratorio",
+        "asignatura": "Biologia",
+        "programa": "Agronomía",
+        "practica": "tercera",
+        "fecha": "2021-04-25",
+        "estado": "Aprobada",
+        "items": [
+            {
+                "cantidad": 36,
+                "recurso": {
+                    "id": 1,
+                    "codigo": "25341",
+                    "nombre": "Matraces Erlenmeyer",
+                    "descripcion": "Tienen un cuello estrecho y se expanden hacia su base",
+                    "categoria": "instrumentos",
+                    "tipo": "Equipo",
+                    "estado": "Disponible"
+                }
+            },
+            {
+                "cantidad": 36,
+                "recurso": {
+                    "id": 2,
+                    "codigo": "25342",
+                    "nombre": "Acido sulfurico",
+                    "descripcion": "Solución estándar de ácido sulfúrico para ajustes del pH.",
+                    "categoria": "Acidos",
+                    "tipo": "Reactivo",
+                    "estado": "Disponible"
+                }
+            },
+            {
+                "cantidad": 36,
+                "recurso": {
+                    "id": 3,
+                    "codigo": "25343",
+                    "nombre": "Aceite P/VISCOSIMETRO",
+                    "descripcion": "ACEITE P/VISCOSIMETRO 1,000 CPS.",
+                    "categoria": "Aceites",
+                    "tipo": "Reactivo",
+                    "estado": "Disponible"
+                }
+            }
+        ]
+    }
+]

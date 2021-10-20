@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "nombre": "Material",
+        "descripcion": "Se designa a través del concepto material de laboratorio a todo aquel material que es plausible de ser empleado en un laboratorio para realizar las típicas actividades que en este tipo de lugares se llevan a cabo, como ser: investigaciones, experimentos, estudios especiales sobre animales, partículas u otros",
+        "estado": "Activo"
+    },
+    {
+        "id": 2,
+        "nombre": "Equipo",
+        "descripcion": "Los equipos de laboratorios son máquinas compuestas, es decir, son mucho más complicadas e interactúan muchas más componentes, su función principal es la de realizar una acción en especifica o varias acciones, ya sean análisis, estudios, activación de reacciones y otros procesos más complicadas.",
+        "estado": "Activo"
+    },
+    {
+        "id": 3,
+        "nombre": "Reativo",
+        "descripcion": "Un reactivo químico es toda sustancia que interactuando con otra (también reactivo) en una reacción química da lugar a otras sustancias de propiedades, características y conformación distinta, denominadas productos de reacción o simplemente productos.",
+        "estado": "Activo"
+    }
+  
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "codigo": "25341",
+        "nombre": "Matraces Erlenmeyer",
+        "descripcion": "Tienen un cuello estrecho y se expanden hacia su base.",
+        "categoria": "instrumentos",
+        "tipo": "Equipo",
+        "estado": "Disponible"
+    },
+    {
+        "id": 2,
+        "codigo": "25342",
+        "nombre": "Acido sulfurico",
+        "descripcion": "Solución estándar de ácido sulfúrico para ajustes del pH.",
+        "categoria": "Acidos",
+        "tipo": "Reactivo",
+        "estado": "Disponible"
+    },
+    {
+        "id": 3,
+        "codigo": "25343",
+        "nombre": "Aceite P/VISCOSIMETRO",
+        "descripcion": "ACEITE P/VISCOSIMETRO 1,000 CPS.",
+        "categoria": "Aceites",
+        "tipo": "Reactivo",
+        "estado": "Disponible"
+    },
+    {
+        "id": 4,
+        "codigo": "25344",
+        "nombre": "Botella Para Helado",
+        "descripcion": "Para la determinación del contenido de grasa en helado.",
+        "categoria": "instrumentos",
+        "tipo": "Material",
+        "estado": "Disponible"
+    },
+    {
+        "id": 5,
+        "codigo": "25345",
+        "nombre": "Crisol de platino",
+        "descripcion": "Tienen un cuello estrecho y se expanden hacia su base.",
+        "categoria": "metales",
+        "tipo": "Material",
+        "estado": "Disponible"
+    }
+]

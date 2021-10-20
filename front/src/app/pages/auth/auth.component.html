@@ -1,0 +1,32 @@
+<div class="row">
+    <br>
+    <div class="col-md-4 mx-auto p-5">
+        <div class="card">
+            <div class="card-body">
+                <form [formGroup]="authForm"  class="mb-5">
+                     <div class="mb-4">
+                     <label class="form-label">Usuario</label>
+                     <input type="text" class="form-control"  formControlName="username">
+                     <div class="bg-secondary text-light mt-1 px-2 py-1 rounded" 
+                         *ngIf="(af.username.dirty || af.username.touched) && af.username.errors && Submitted" >
+                     </div>
+                     </div>
+                     <div class="mb-4">
+                     <label class="form-label ">Contraseña</label>
+                     <input
+                     type="password" class="form-control" 
+                     formControlName="password" >
+                     <small class="bg-secondary text-light mt-1 px-2 py-1 rounded" 
+                         *ngIf="(af.password.dirty || af.password.touched) && af.password.errors && Submitted" >
+                     </small>
+                     </div>
+                     <button type="button" class="btn btn-danger w-100" (click)="login()"
+                     >Iniciar sesión</button>
+                 </form>
+                <hr >
+              
+            </div>
+        </div>
+       
+    </div>
+</div>
